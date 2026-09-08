@@ -89,12 +89,16 @@ R1	Reallocate marketing and inventory investment toward skincare (the strongest 
 R2	Consolidate shipments with lower-cost, high-performing carriers (e.g., Carrier B) and renegotiate contracts with higher-cost carriers such as Carrier A.
 R3	Implement stricter supplier quality audits for SKUs/suppliers with above-average defect rates to reduce failed inspections and rework costs.
 R4	Optimize the transportation mode mix — shift a portion of Road volume to lower-cost alternatives where delivery-time requirements allow.
-# Conclusion
-By uniting product economics, inventory logistics, manufacturing parameters, and quality metrics into a single analytical model, this project addresses the fundamental inefficiencies of fragmented supply chain management. The unified framework empowers data-driven decision-making, highlights where lead times and defect rates can be reduced, and identifies where logistics and manufacturing costs can be minimized — supporting a more resilient, customer-centric supply chain.
 # Future scope:
-Real-time IoT/GPS integration with carriers for live route optimization
-Automated demand forecasting (ARIMA, Prophet, LSTM)
-Prescriptive replenishment planning with auto-generated purchase orders
-Sustainability/carbon footprint tracking per route and transport mode
+1) IoT Real Time Integration : Integrate with a shipping carriers' GPS data, as well as with their telemetry data for real-time route optimization and delivery visibility.
+2) Automatic Demand Forecasting : Utilize sophisticated time-series modeling techniques (ARIMA, Prophet, LSTM etc.), and customer demographic data to predict sales velocity.
+3) Prescriptive Replenishment Planning : Proactively determine reorder points and auto generate purchase orders based on real-time stock levels, and vendor lead-times.
+4) Sustainability and carbon footprint tracking : Measure and track emissions per mile for each transit mode and route, as a contribution to the green supply chain.
+# Conclusion 
+By uniting product economics, inventory logistics, manufacturing parameters, and quality metrics into a single analytical model, this project addresses the fundamental inefficiencies of fragmented supply chain management. The unified framework empowers data-driven decision-making, significantly reduces lead times and defect rates, minimizes logistics and manufacturing costs, and builds a resilient, customer-centric supply ecosystem.
+
+
+
+
 
 
