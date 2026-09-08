@@ -69,6 +69,7 @@ Outliers exist in Defect rates, Costs, and Revenue — a handful of SKUs/orders 
 Costs and shipping performance vary meaningfully by transport mode and carrier — a logistics optimization opportunity.
 # Power BI Dashboard
 An interactive Power BI report (Supply_Chain_Analysis.pbix) was built on top of the cleaned dataset, with a data model connecting Supply_Chain, Product type vs Revenue, and Product Type vs No. of products sold tables.
+Power BI Dashboard<img width="2082" height="1108" alt="Power BI Dashboard" src="https://github.com/user-attachments/assets/880d6d6a-2080-4ebe-a6db-05cf2e6f2d53" />
 Data model view <img width="1478" height="791" alt="image" src="https://github.com/user-attachments/assets/cd8ae406-e54e-490d-9f53-5c6b463609af" />
 # Key DAX measures created:
 Total Revenue         = SUM(Supply_Chain[Revenue generated])
